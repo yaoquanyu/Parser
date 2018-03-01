@@ -1,3 +1,7 @@
+This project is a test assignment from one of my interview, please check 'project requirements.txt' for more details.
+
+Below are the instructions that run the project:
+
 1. Please open Parser\src\main\resources\database_config.properties file and update database information before compile.
 
 2. To compile the source code please use the following command:
