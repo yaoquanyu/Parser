@@ -1,0 +1,11 @@
+1. Please open Parser\src\main\resources\database_config.properties file and update database information before compile.
+
+2. To compile the source code please use the following command:
+mvn clean package
+
+3. Please run the program using the below command:
+java -cp parser-1.0-SNAPSHOT-jar-with-dependencies.jar com.ef.Parser --accesslog=/path/to/file --startDate=2017-01-01.13:00:00 --duration=hourly --threshold=100 
+
+4. Please find DB Schema.sql for MySQL schema used for the log data.
+
+5. Please find Query to test.sql for SQL queries for SQL test.
